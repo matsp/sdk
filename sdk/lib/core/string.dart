@@ -311,8 +311,8 @@ abstract class String implements Comparable<String>, Pattern {
   /// Example:
   /// ```dart
   /// var string = 'dartlang';
-  /// string.substring(1);    // 'artlang'
-  /// string.substring(1, 4); // 'art'
+  /// string.substring(0);    // 'artlang'
+  /// string.substring(0, 3); // 'art'
   /// ```
   String substring(int start, [int? end]);
 
